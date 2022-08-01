@@ -1,0 +1,283 @@
+
+html body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #efece5;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+}
+
+
+h2 {
+
+}
+
+table {
+    margin: 2% 1%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border: 1px solid #000;
+    display: block;
+}
+
+tr:first-child {
+    background: #a5d4e2;
+}
+
+th {
+    width: 10%;
+    font-size: 24px;
+}
+
+td {
+    padding: 4px;
+    text-align: center;
+    height: 50px;
+    width: 150px;
+    border: 1px solid #3a3532;
+    border-bottom: none;
+}
+
+button {
+    border: 1px solid;
+    border-radius: 8px;
+    margin-right: 4px;
+    margin-top: 4px;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    color: #0c0c0c;
+    margin: 0 2%;
+}
+
+.institutionsAddendum {
+    background: #91e293;
+}
+
+.employeeAddendum {
+    background: #91e293;
+}
+
+.institutionsEditing {
+    background: #f0e7aa;
+}
+
+.employeeEditing {
+    background: #f0e7aa;
+}
+
+.institutionsDelete {
+    background: #f68d93;
+}
+
+.employeeDelete {
+    background: #f68d93;
+}
+
+.institutionsAddingPolyclinic {
+    background: #35d2c9;
+}
+
+.employeeAddingPolyclinic {
+    background: #35d2c9;
+}
+
+.main {
+    margin: 5% auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 24px;
+    background-color: #a5d4e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mainPage {
+    margin-left: 0 !important;
+}
+
+.authorization {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.formElement {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.formElement input {
+    margin-top: 4px;
+}
+
+.editButtons {
+    text-align: right;
+    margin-right: 1%;
+}
+
+.employeeHeading {
+    text-align: left;
+    font-size: 45px;
+    margin: 2% 0 0 4%;
+}
+
+.addingPolyclinicHeading {
+    text-align: center;
+}
+
+.addendumContainer {
+    width: 350px;
+    height: 750px;
+    margin: 2% auto;
+    border-radius: 24px;
+    background-color: #91e293;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.addendumInstitutionsContainer {
+    height: 600px;
+}
+
+.tag1 {
+    width: 63%;
+}
+
+.tag2 {
+    margin-left: 4%;
+}
+
+.tag3 {
+    margin-left: 10%;
+}
+
+.tag4 {
+    margin-left: 18%;
+}
+
+.editingContainer {
+    width: 350px;
+    height: 750px;
+    margin: 2% auto;
+    border-radius: 24px;
+    background-color: #f0e7aa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.editingInstitutionsContainer {
+    height: 650px;
+    width: 370px;
+}
+
+.deleteContainer {
+    width: 350px;
+    height: 350px;
+    margin: 2% auto;
+    border-radius: 24px;
+    background-color: #f68d93;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.addingPolyclinicContainer {
+    width: 350px;
+    height: 360px;
+    margin: 2% auto;
+    border-radius: 24px;
+    background-color: #35d2c9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.addendumHeading {
+    text-align: center;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.margin0 {
+    margin: 0;
+}
+.staffHeader{
+    display: flex;
+    background: #5dc2e2;
+    border-radius: 0 0 15px 15px;
+}
+.exit{
+    text-align: right;
+    margin: 2% 4% auto auto;
+}
+.exitForm{
+    width: 8%;
+    margin-top: 2%;
+}
+.tables{
+    text-align: center;
+    width: 100%;
+    margin: 2%;
+    font-size: 40px;
+}
+.cancellation {
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 8px;
+    margin: 1% 4px 0em 1%;
+    padding: 3px 5px 5px 5px;
+    background: #c6c7c2;
+}
+
+
+.b-popup{
+    overflow:hidden;
+    position:fixed;
+    top:0px;
+    margin: 4% 0 0 36%;
+}
+.b-popup .b-popup-content{
+    margin:12% auto 0px auto;
+    width: 400px;
+    height: 32px;
+    padding:10px;
+    background: #d23a1d;
+    border-radius:5px;
+    box-shadow: 0px 0px 10px #000;
+}
